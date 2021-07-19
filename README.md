@@ -1,4 +1,5 @@
 # GNDAN
+<!-- ![](imgs/model.jpeg) -->
 Codes of **GNDAN: Garph Navigated Dual Attention Network for Zero-Shot Learning** submitted to TNNLS. Note that this repository includes the trained model and test scripts, which is used for testing and checking our results reported in our paper. Once our paper is accepted, we will release all codes of this work.
 
 ## Preparing Dataset and Model
@@ -28,4 +29,6 @@ Results of our released model using various evaluation protocols on three datase
 **Note**: All of above results run on a server with an AMD Ryzen 7 5800X CPU and a Nvidia RTX A6000 GPU.
 
 ## References
-Parts of our codes based on [Attentive Region Embedding Network for Zero-shot Learning](https://github.com/gsx0/Attentive-Region-Embedding-Network-for-Zero-shot-Learning) and [Fine-Grained Generalized Zero-Shot Learning via Dense Attribute-Based Attention](https://github.com/hbdat/cvpr20_DAZLE).
+Parts of our codes based on:
+* [gsx0/Attentive-Region-Embedding-Network-for-Zero-shot-Learning](https://github.com/gsx0/Attentive-Region-Embedding-Network-for-Zero-shot-Learning)
+* [hbdat/cvpr20_DAZLE](https://github.com/hbdat/cvpr20_DAZLE).
