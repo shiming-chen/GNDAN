@@ -30,7 +30,7 @@ $ python test.py --config config/test_AWA2.json #AWA2
 ```
 
 ## Results
-Results of our released model using various evaluation protocols on three datasets, both in conventional ZSL (CZSL) and generalized ZSL (GZSL) setting.
+Results of our released model using various evaluation protocols on three datasets, both in the conventional ZSL (CZSL) and generalized ZSL (GZSL) setting. This released results are slightly higher than the results in the paper.
 
 | Dataset | U | S | H | Acc |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
