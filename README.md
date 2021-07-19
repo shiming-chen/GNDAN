@@ -17,7 +17,7 @@ We provide [trained models](https://drive.google.com/drive/folders/1RjzIVQ9YykhO
 └── ···
 ```
 ## Requirements
-The code implementation of **GNDAN** mainly based on [PyTorch](https://pytorch.org/) and [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/). All of our experiments run and test in Python 3.8.8. To install all required dependencies, run:
+The code implementation of **GNDAN** mainly based on [PyTorch](https://pytorch.org/) and [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/). All of our experiments run and test in Python 3.8.8. To install all required dependencies:
 ```
 $ pip install -r requirements.txt
 ```
@@ -30,7 +30,7 @@ $ python test.py --config config/test_AWA2.json #AWA2
 ```
 
 ## Results
-Results of our released model using various evaluation protocols on three datasets, both in the conventional ZSL (CZSL) and generalized ZSL (GZSL) setting. This released results are slightly higher than the results in the paper.
+Results of our released models using various evaluation protocols on three datasets, both in the conventional ZSL (CZSL) and generalized ZSL (GZSL) settings. These released results are slightly higher than the results in the paper.
 
 | Dataset | U | S | H | Acc |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -38,7 +38,7 @@ Results of our released model using various evaluation protocols on three datase
 | SUN | 50.3 | 35.0 | 41.3 | 65.6 |
 | AWA2 | 61.7 | 79.1 | 69.3 | 71.3 |
 
-**Note**: All of above results run on a server with an AMD Ryzen 7 5800X CPU and one Nvidia RTX A6000 GPU.
+**Note**: All of above results are run on a server with an AMD Ryzen 7 5800X CPU and one Nvidia RTX A6000 GPU.
 
 ## References
 Parts of our codes based on:
