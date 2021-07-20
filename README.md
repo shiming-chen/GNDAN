@@ -1,9 +1,9 @@
 # GNDAN
 <!-- ![](imgs/model.jpeg) -->
-Codes of **GNDAN: Garph Navigated Dual Attention Network for Zero-Shot Learning** submitted to TNNLS. Note that this repository includes the trained model and test scripts, which is used for testing and checking our results reported in our paper. Once our paper is accepted, we will release all codes of this work.
+Codes of **GNDAN: Graph Navigated Dual Attention Network for Zero-Shot Learning** submitted to TNNLS. Note that this repository includes the trained model and test scripts, which is used for testing and checking our results reported in our paper. Once our paper is accepted, we will release all codes of this work.
 
 ## Preparing Dataset and Model
-We provide [trained models](https://drive.google.com/drive/folders/1RjzIVQ9YykhOusAcjM9QHlMp5W_iaQoY?usp=sharing) of three different datasets: [CUB](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), [SUN](http://cs.brown.edu/~gmpatter/sunattributes.html), [AWA2](http://cvml.ist.ac.at/AwA2/). You can download model files as well as corresponding datasets, and organize them as follows: 
+We provide trained models ([Google Drive](https://drive.google.com/drive/folders/1RjzIVQ9YykhOusAcjM9QHlMp5W_iaQoY?usp=sharing)) of three different datasets: [CUB](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), [SUN](http://cs.brown.edu/~gmpatter/sunattributes.html), [AWA2](http://cvml.ist.ac.at/AwA2/). You can download model files as well as corresponding datasets, and organize them as follows: 
 ```
 .
 ├── saved_model
@@ -24,9 +24,9 @@ $ pip install -r requirements.txt
 ## Runing
 Runing following commonds and testing **GNDAN** in different dataset: 
 ```
-$ python test.py --config config/test_CUB.json  #CUB
-$ python test.py --config config/test_SUN.json  #SUN
-$ python test.py --config config/test_AWA2.json #AWA2
+$ python test.py --config config/test_CUB.json      #CUB
+$ python test.py --config config/test_SUN.json      #SUN
+$ python test.py --config config/test_AWA2.json     #AWA2
 ```
 
 ## Results
@@ -43,4 +43,4 @@ Results of our released models using various evaluation protocols on three datas
 ## References
 Parts of our codes based on:
 * [gsx0/Attentive-Region-Embedding-Network-for-Zero-shot-Learning](https://github.com/gsx0/Attentive-Region-Embedding-Network-for-Zero-shot-Learning)
-* [hbdat/cvpr20_DAZLE](https://github.com/hbdat/cvpr20_DAZLE).
+* [hbdat/cvpr20_DAZLE](https://github.com/hbdat/cvpr20_DAZLE)
