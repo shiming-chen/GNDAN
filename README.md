@@ -22,7 +22,7 @@ The code implementation of **GNDAN** mainly based on [PyTorch](https://pytorch.o
 $ pip install -r requirements.txt
 ```
 ## Runing
-Runing following commonds and testing **GNDAN** in different dataset: 
+Runing following commands and testing **GNDAN** on different dataset: 
 ```
 $ python test.py --config config/test_CUB.json      #CUB
 $ python test.py --config config/test_SUN.json      #SUN
