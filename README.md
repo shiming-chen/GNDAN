@@ -1,6 +1,6 @@
 # GNDAN
 <!-- ![](imgs/model.jpeg) -->
-Codes for the paper "**GNDAN: Graph Navigated Dual Attention Network for Zero-Shot Learning**" submitted to TNNLS. Note that this repository includes the trained model and test scripts, which is used for testing and checking our results reported in our paper. Once our paper is accepted, we will release all codes of this work.
+Codes for the paper "**GNDAN: Graph Navigated Dual Attention Network for Zero-Shot Learning**" accepted to TNNLS. Note that this repository includes the trained model and test scripts, which is used for testing and checking our results reported in our paper.
 
 ## Preparing Dataset and Model
 We provide trained models ([Google Drive](https://drive.google.com/drive/folders/1RjzIVQ9YykhOusAcjM9QHlMp5W_iaQoY?usp=sharing)) of three different datasets: [CUB](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), [SUN](http://cs.brown.edu/~gmpatter/sunattributes.html), [AWA2](http://cvml.ist.ac.at/AwA2/). You can download model files as well as corresponding datasets, and organize them as follows: 
