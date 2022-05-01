@@ -44,7 +44,7 @@ Results of our released models using various evaluation protocols on three datas
 If this work is helpful for you, please cite our paper.
 
 ```
-@article{chen2021gndan,
+@article{Chen2022GNDAN,
     author    = {Chen, Shiming and Hong, Ziming and Xie, Guo-Sen and Peng, Qinmu and You, Xinge and Ding, Weiping and Shao, Ling},
     title     = {GNDAN: Graph Navigated Dual Attention Network for Zero-Shot Learning},
     journal = {IEEE Transactions on Neural Networks and Learning Systems},
